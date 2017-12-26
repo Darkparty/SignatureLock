@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Signature Lock</string>
+    <string name="settingInfo">Info</string>
+    <string name="settingExit">Exit</string>
+    <string name="Hello">Hello!</string>
+    <string name="StartChoose">Please press to log in</string>
+    <string name="Register">First here? Then register:</string>
+    <string name="RegisterButton">Register</string>
+    <string name="Password">Password</string>
+    <string name="Signature">Signature</string>
+    <string name="RegisterToDo">Make 5 signatures!</string>
+    <string name="Info">This application was created by Kuznetsov Yaroslav.\n
+        Copyright © 2017 by SignatureLock, LLC. All right reserved.</string>
+    <string name="READFILE">readd</string>
+    <string name="SECRETFILE">passw</string>
+    <string name="TOKENFILE">token</string>
+    <string name="TAG">MyTag</string>
+    <string name="REGURL">https://sl.maxqfz.net/register.php</string>
+    <string name="LOGURL">https://sl.maxqfz.net/login.php</string>
+    <string name="COMMONSTRING">Write here your passwords</string>
+    <string name="NOFILE">No file</string>
+    <string name="WAIT">Please wait...</string>
+    <string name="MAKESIGNATURE">Make signature</string>
+</resources>

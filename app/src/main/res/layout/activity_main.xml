@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.sl.signaturelock.MainActivity">
+
+    <Button
+            android:text="@string/Signature"
+            android:onClick="SignatureButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/SignatureButton"
+            android:layout_below="@+id/textView2" android:layout_centerHorizontal="true"
+            android:layout_marginTop="27dp"/>
+    <TextView
+            android:text="@string/Hello"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"
+            android:layout_marginTop="75dp"
+            style="@style/CommonText.BigText"/>
+    <TextView
+            android:text="@string/StartChoose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            style="@style/CommonText" android:layout_below="@+id/textView" android:layout_centerHorizontal="true"
+            android:layout_marginTop="34dp"/>
+    <TextView
+            android:text="@string/Register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/CommonText"
+            android:layout_marginTop="66dp" android:id="@+id/textView3"
+            android:layout_below="@+id/SignatureButton" android:layout_centerHorizontal="true"/>
+    <Button
+            android:text="@string/RegisterButton"
+            android:onClick="RegisterButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="38dp" android:id="@+id/button"
+            android:layout_below="@+id/textView3" android:layout_centerHorizontal="true"/>
+</RelativeLayout>
